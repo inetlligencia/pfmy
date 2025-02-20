@@ -22,6 +22,6 @@ axes.grid: True
 axes.grid.axis: y       # draw grid only on y-axis
 axes.grid.which: major
 grid.color: "#add8e6"   # light blue
-grid.linestyle: -
+grid.linestyle: "-"
 grid.linewidth: 0.5
 grid.alpha: 0.4

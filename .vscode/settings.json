@@ -1,4 +1,5 @@
 {
     "makefile.configureOnOpen": false,
-    "terminal.explorerKind": "external"
+    "terminal.explorerKind": "external",
+    "debug.allowBreakpointsEverywhere": true
 }

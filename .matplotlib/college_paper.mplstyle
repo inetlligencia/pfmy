@@ -1,0 +1,37 @@
+# college_paper.mplstyle
+
+# Background color (yellowish)
+figure.facecolor: #FFFFE0
+axes.facecolor: #FFFFE0
+
+# Grid lines (college-lined paper style)
+axes.grid: True
+grid.color: #CCCCCC
+grid.linestyle: --
+grid.linewidth: 0.5
+
+# Red margin line
+axes.spines.left: True
+axes.spines.left.color: red
+axes.spines.left.linewidth: 2
+
+# Hide other spines (top, right, bottom)
+axes.spines.top: False
+axes.spines.right: False
+axes.spines.bottom: False
+
+# Axis ticks and labels
+xtick.color: black
+ytick.color: black
+xtick.labelcolor: black
+ytick.labelcolor: black
+
+# Font settings
+font.family: serif
+font.size: 10
+text.color: black
+
+# Line and marker styles
+lines.linewidth: 1.5
+lines.color: blue
+lines.markersize: 6

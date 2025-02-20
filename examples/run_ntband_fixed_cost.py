@@ -121,7 +121,7 @@ if __name__ == "__main__":
 
     
     # Generate data for plotting
-    log_moneyness = torch.linspace(-0.5, 0.5, steps100)
+    log_moneyness = torch.linspace(-0.5, 0.5, steps=100)
     bs_delta = []
     ntb_min = []
     ntb_max = []
@@ -146,3 +146,4 @@ if __name__ == "__main__":
     plt.grid(True)
     plt.show()
     logging.info("Done")
+    

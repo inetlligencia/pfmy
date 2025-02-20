@@ -1,0 +1,39 @@
+# college_paper.mplstyle
+
+# Background color (more yellowish)
+figure.facecolor: #FFF8DC
+axes.facecolor: #FFF8DC
+
+# Grid lines (only horizontal lines, thicker and translucent blue)
+axes.grid: True
+grid.color: "#add8e6"   # light blue
+grid.linestyle: -
+grid.linewidth: 1.5
+grid.axis: y
+grid.alpha: 0.4
+
+# Y-axis spine (thicker but more transparent)
+axes.spines.left: True
+axes.spines.left.color:rgba(239, 90, 10, 0.5)
+axes.spines.left.linewidth: 4
+
+# Hide other spines (top, right, bottom)
+axes.spines.top: False
+axes.spines.right: False
+axes.spines.bottom: False
+
+# Axis ticks and labels
+xtick.color: black
+ytick.color: black
+xtick.labelcolor: black
+ytick.labelcolor: black
+
+# Font settings
+font.family: serif
+font.size: 10
+text.color: black
+
+# Line and marker styles
+lines.linewidth: 1.5
+lines.color: blue
+lines.markersize: 6
